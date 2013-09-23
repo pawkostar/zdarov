@@ -1,9 +1,9 @@
 package com.zdarov;
 
 public class Main2 {
-	private String str = "YO YO YO";
+	private static String str = "YO YO YO";
 	
-	private void Main(String args[]){
-		System.out.print(this.str);
+	public static void main(String[] args) {
+		System.out.print(str);
 	}
 }
